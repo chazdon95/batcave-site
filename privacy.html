@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Batcave privacy policy</title><meta name="description" content="How Batcave handles Google user data."><link rel="stylesheet" href="style.css"></head>
+<body>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a></nav>
+<h1>Privacy policy</h1>
+<p class="muted">Last updated 24 November 2026</p>
+<p>Batcave is a private tool used by a single person, its owner. This policy explains what happens to Google user data when the owner connects their own Google account.</p>
+<h2>What data Batcave accesses</h2>
+<ul><li><b>Gmail messages and threads</b> (scope <code>gmail.readonly</code>), read only when the owner asks a question about their email.</li>
+<li><b>Gmail drafts</b> (scope <code>gmail.compose</code>), used only to create draft replies for the owner to review. Batcave contains no code that sends email.</li>
+<li>The connected account's <b>email address</b> (scopes <code>openid</code> and <code>email</code>), to show which account is connected.</li></ul>
+<h2>How it is used</h2>
+<p>Data is used only to answer the owner's own requests and to prepare drafts for the owner. It is not used for advertising, not sold, not used to build profiles of anyone, and not used to train AI models.</p>
+<h2>Where it is stored</h2>
+<p>The access token is stored on the owner's private server in a file readable only by the system administrator account. Email content is fetched when needed and is not copied into a separate database. The server is reachable only over the owner's private network.</p>
+<h2>Sharing</h2>
+<p>Google user data is not sold, and not shared with or transferred to anyone for their own use. When the owner asks a question about their email, the relevant text is processed by the AI assistant the owner uses (Anthropic's Claude) only to produce an answer for the owner. The owner's Claude account is set so that conversations are not used to train models.</p>
+<h2>Limited Use</h2>
+<p>Batcave's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Removing access and deleting data</h2>
+<p>The owner can remove Batcave's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, or with Batcave's own one-step revoke, which also deletes the stored token.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: open an issue at <a href="https://github.com/chazdon95/batcave-site/issues">github.com/chazdon95/batcave-site</a>.</p>
+<footer>Batcave · a personal project</footer>
+</body></html>
